@@ -1,0 +1,16 @@
+{
+  "name": "postman-newman-jenkins",
+  "version": "1.0.0",
+  "description": "Project for Storing Postman tests",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "api-tests-production": "newman run test/JsonPlaceHolder.postman_collection.json"
+  },
+  "author": "Rusaiq",
+  "dependencies": {
+    "newman": "^5.3.2"
+  }
+}
