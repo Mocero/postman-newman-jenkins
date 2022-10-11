@@ -17,7 +17,7 @@
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
 							"pm.test(\"Body matches string\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"qui est esse\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"tested\");\r",
 							"});"
 						],
 						"type": "text/javascript"
