@@ -18,6 +18,9 @@
 							"});\r",
 							"pm.test(\"Body matches string\", function () {\r",
 							"    pm.expect(pm.response.text()).to.include(\"qui est esse\");\r",
+							"});\r",
+							"pm.test(\"Response time is less than 10ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(10);\r",
 							"});"
 						],
 						"type": "text/javascript"
